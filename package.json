@@ -1,0 +1,15 @@
+{
+  "name": "myaltjs",
+  "version": "1.0.0",
+  "main": "parse.js",
+  "scripts": {
+    "start": "npx pegjs -o emoji.js emojijs.pegjs && node parse.js fizzbuzz.emjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "escodegen": "^2.1.0",
+    "pegjs": "^0.10.0"
+  }
+}
