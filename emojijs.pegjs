@@ -373,7 +373,9 @@ Identifier
         return makeIdentifier(chars.join(""));
     }
 
-_ = (WhiteSpace / Comment)*
+_ = 
+    (WhiteSpace / Comment)*
+
 WhiteSpace 
     = [ \t\n\r]+
 

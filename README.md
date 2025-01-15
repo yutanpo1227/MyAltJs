@@ -1,3 +1,5 @@
-# Emojijs
+# 動作方法
 
-大学の授業課題で作成した AltJS
+```bash
+npm run start
+```
